@@ -18,8 +18,20 @@
         var tempArr = arr.sort(compareNumeric);
         var minValue = tempArr[0];
         var maxValue = tempArr[tempArr.length - 1];
+        
 
         document.write("Min value: " + minValue + '<br/>' + "Max value: " + maxValue + '<br/>');
+        
+        var minValue = tempArr[0];
+        console.log(minValue)
+        //came back as exspected "-90" 
+
+        var maxValue = tempArr [tempArr.length - 1];
+        console.log(maxValue);
+
+        document.write("my max value is" + maxvalue + "an my min value" + minValue);
+        //came back as expsected "555"
+        
 
 
         // why array sort doesn't sort correctly
